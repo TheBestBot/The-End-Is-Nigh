@@ -1,0 +1,39 @@
+{
+	"type": "Separator",
+	"name": "Ore Condenser",
+	"description": "Makes ore into a usable form, complex but simple with unloaders.",
+	"liquidCapacity": 50,
+	"results": [
+			{"item": "gold-powder", "amount": 100},
+			{"item": "pure-gold", "amount": 10},
+			{"item": "thorium", "amount": 1},
+			{"item": "lead", "amount": 200},
+			{"item": "titanium", "amount": 100},
+	],
+
+	"size": 4,
+	"spinnerLength": 2,
+	"spinnerSpeed": 10,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+        	"power": 2.0,
+        	"liquid": {
+            		"liquid": "ore-slag",
+            		"amount": 0.5
+        	}
+    	},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "titanium", "amount": 300 },
+		{ "item": "silicon", "amount": 300 },
+	],
+	"category": "crafting",
+	"research": "laser-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

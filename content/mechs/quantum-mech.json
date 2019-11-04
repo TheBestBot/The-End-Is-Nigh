@@ -1,0 +1,19 @@
+{
+	"name": "Quantum Ship",
+	"description": "An unnatural ship. Ment for building, as it comes with a powerful energy core. Can also fire a strong laser in times of need.",
+	"speed": 2.0,
+	"boostSpeed": 1.5,
+	"buildPower": 8.0,
+	"engineColor": "666495",
+	"flying": true,
+	"health": 300,
+	"weaponOffsetX": 4,
+	"weaponOffsetY": 1,
+	"weapon": {
+		"name": "chrome-blaster",
+		"length": 1,
+		"reload": 200,
+		"alternate": false,
+		"bullet": "meltdownLaser"
+	}
+}

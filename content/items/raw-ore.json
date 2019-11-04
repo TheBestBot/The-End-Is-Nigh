@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Raw Ore",
+	"description": "Ore from the deep bowels of the earth. Contains trace amounts of many materials.",
+	"cost": 1.0,
+	"color": "BABABA"
+}

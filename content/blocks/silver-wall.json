@@ -1,0 +1,12 @@
+{
+	"name": "Gold Wall",
+	"description": "A wall made of solid gold. Not particularly useful or interesting.",
+	"type": "Wall",
+	"health": 1,
+	"size": 2,
+	"requirements": [
+		{ "item": "pure-gold", "amount": 40 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

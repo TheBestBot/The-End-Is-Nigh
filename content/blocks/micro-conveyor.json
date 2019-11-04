@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": Micro conveyor",
+	"description": "Powered by thousands of micro chips.",
+	"requirements": [
+		{"item": "titanium", "amount": 3},
+		{"item": "copper", "amount": 3},
+		{"item": "lead", "amount": 3},
+		{"item": "micro-chip", "amount": 3}
+	],
+	"category": "distribution",
+	"speed": 0.12,
+	"research": "titanium-conveyor"
+}
