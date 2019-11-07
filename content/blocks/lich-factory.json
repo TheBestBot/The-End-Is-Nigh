@@ -1,0 +1,30 @@
+{
+	"name": "Lich Facory",
+	"description": "Causes chaos...at a cost.",
+	"type": "UnitFactory",
+	"unitType": "lich",
+	"size": 6,
+	"produceTime": 12000,
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 120.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 2000},
+				{"item": "pure-gold", "amount": 300},
+				{"item": "titanium", "amount": 1000},
+				{"item": "thorium", "amount": 300},
+				{"item": "micro-chip", "amount": 300}
+			]
+		}
+	},
+	"category": "units",
+	"research": "revenant-factory",
+	"requirements": [
+			{"item": "silicon", "amount": 1000},
+			{"item": "pure-gold", "amount": 150},
+			{"item": "titanium", "amount": 1000},
+			{"item": "thorium", "amount": 300},
+			{"item": "micro-chip", "amount": 300}
+	]
+}

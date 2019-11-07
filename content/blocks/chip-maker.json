@@ -1,0 +1,42 @@
+{
+	"type": "GenericSmelter",
+	"name": "Micro Chip Assembler",
+	"description": "Combines a multitude of parts into tiny chips.",
+	"outputItem": {"item": "micro-chip", "amount": 5},
+	"size": 3,
+	"itemCapacity": 30,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 600,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.5,
+		"items": {
+			"items": [
+				{"item": "pure-gold", "amount": 2},
+				{"item": "quantum-particles", "amount": 5},
+				{"item": "copper", "amount": 10},
+				{"item": "lead", "amount": 10},
+				{"item": "titanium", "amount": 5},
+				{"item": "thorium", "amount": 1},
+				{"item": "graphite", "amount": 5},
+				{"item": "silicon", "amount": 5},
+				{"item": "spore-pod", "amount": 5},
+			]
+		}
+	},
+	"requirements": [
+		{"item": "pure-gold", "amount": 50},
+		{"item": "quantum-particles", "amount": 50},
+		{"item": "copper", "amount": 500},
+		{"item": "lead", "amount": 500},
+		{"item": "titanium", "amount": 200},
+		{"item": "thorium", "amount": 50},
+		{"item": "graphite", "amount": 100},
+		{"item": "silicon", "amount": 100},
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

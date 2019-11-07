@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Quantum Particles",
+	"description": "A blob of quantum particles. They many or may not exist. Useful for military and civilan aplications.",
+	"cost": 1.0,
+	"color": "00008b"
+}

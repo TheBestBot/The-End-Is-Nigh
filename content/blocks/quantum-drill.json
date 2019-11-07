@@ -1,0 +1,26 @@
+{
+	"name": "Quantum Tunneler",
+	"description": "This drill goes through quantum barriers to achive incredible rates.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 5,
+	"drillTime": 5,
+	"drawRim": true,
+	"consumes": {
+		"power": 15.0,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "micro-chip", "amount": 100 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "lead", "amount": 200 },
+		{ "item": "quantum-particles", "amount": 200 }
+	],
+	"category": "production",
+	"research": "blast-drill"
+}
