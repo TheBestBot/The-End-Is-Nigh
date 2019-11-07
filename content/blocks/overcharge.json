@@ -1,0 +1,56 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Overcharge",
+	"description": "Heavy cannon, purpose built for siges",
+	"health": 4000,
+	"size": 4,
+	"reload": 600,
+	"range": 700,
+	"recoil": 10,
+	"ammoUseEffect": "shellEjectBig",
+	"shootEffect": "spawnShockwave",
+	"smokeEffect": "shootBigSmoke",
+	"shootSound": "wave",
+	"inaccuracy": 0,
+	"rotatespeed": 0.05,
+	"ammoPerShot": 30,
+	"ammo": {
+		"micro-chip": {
+			"ammoMultiplier": 1,
+			"speed": 1,
+			"damage": 35,
+			"bulletWidth": 40,
+			"bulletHeight": 30,
+			"frontColor": "3D9FD5",
+			"backColor": "0A80C1",
+			"fragBullets": 50,
+			"lightining" : 50,
+			"lightningLength" : 25,
+			"lifetime": 600,
+			"fragBullet": {
+				"speed": 5.5,
+				"damage": 35,
+				"bulletWidth": 6,
+				"bulletHeight": 10,
+				"lifetime": 10,
+				"shootEffect": "shootSmall",
+				"smokeEffect": "shootSmallSmoke",
+				"frontColor": "3D9FD5",
+				"backColor": "0A80C1",
+				"lightining" : 10,
+				"lightningLength" : 25
+				}
+			}
+	},
+	"requirements": [
+		{ "item": "pure-gold", "amount": 800 },
+		{ "item": "copper", "amount": 10000 },
+		{ "item": "micro-chip", "amount": 1000 },
+		{ "item": "quantum-particles", "amount": 500 },
+		{ "item": "surge-alloy", "amount": 800 },
+		{ "item": "lead", "amount": 10000 },
+		{ "item": "silicon", "amount": 2000 }
+	],
+	"category": "turret",
+	"research": "meltdown"
+}

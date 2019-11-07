@@ -1,0 +1,8 @@
+{
+	"name": "Quantum Ore Slag",
+	"description": "Rocks, but really dense and melted.",
+	"temperature": 0.9,
+    "viscosity": 0.8,
+    "effect": "melting",
+    "color": "301934"
+}

@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Ore Crusher",
+	"description": "Makes ore into a usable liquid form.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "ore-slag","amount": 15.0},
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+        	"power": 2.0,
+		"item": "raw-ore"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "titanium", "amount": 300 },
+		{ "item": "silicon", "amount": 300 }
+	],
+	"category": "crafting",
+	"research": "laser-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

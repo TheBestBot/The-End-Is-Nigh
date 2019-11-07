@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Micro Chips",
+	"description": "A cicruit board that harneses the power of quantum mechanics.",
+	"cost": 5,
+	"color": "046307"
+}

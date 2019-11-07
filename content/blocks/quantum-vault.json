@@ -1,0 +1,17 @@
+{
+	"name": "Quantum Vault",
+	"description": "Stores items in another dimension",
+	"type": "Vault",
+	"itemCapacity": 6666,
+	"hasItems": true,
+	"health": 2000,
+	"size": 3,
+	"requirements": [
+		{ "item": "micro-chip", "amount": 200 },
+		{ "item": "titanium", "amount": 600 },
+		{ "item": "thorium", "amount": 400 },
+		{ "item": "quantum-phase", "amount": 150 }
+	],
+	"category": "effect",
+	"research": "vault"
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Quantum Fyler Pad",
+	"description": "Transform into the Quantum Flyer.",
+	"type": "MechPad",
+	"mech": "quantum-mech",
+	"size": 2,
+	"consumes": {
+		"power": 0.7
+	},
+	"category": "upgrade",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "pure-gold", "amount": 200 },
+		{ "item": "quantum-particles", "amount": 40 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "graphite", "amount": 200 },
+	]
+}

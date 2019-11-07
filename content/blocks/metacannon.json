@@ -1,0 +1,63 @@
+{
+	"type": "DoubleTurret",
+	"name": "Meta Cannon",
+	"description": "A large high firerate multipurpose cannon.",
+	"health": 4000,
+	"size": 4,
+	"reload": 5,
+	"range": 300,
+	"recoil": 5,
+	"ammoUseEffect": "shellEjectBig",
+	"shootEffect": "bigShockwave",
+	"smokeEffect": "shootBigSmoke",
+	"shootSound": "bigshot",
+	"inaccuracy": 5,
+	"rotatespeed": 1,
+	"ammo": {
+		"thorium": {
+			"speed": 6,
+			"damage": 240,
+			"bulletWidth": 5,
+			"bulletHeight": 30,
+			"frontColor": "3D9FD5",
+			"backColor": "0A80C1",
+			"lifetime": 100
+		},
+		"micro-chip": {
+			"speed": 6,
+			"damage": 300,
+			"incendAmount": 20,
+			"incendSpread": 20,
+			"incendChance": 10,
+			"homingPower": 1,
+			"homingRange": 30,
+			"bulletWidth": 5,
+			"bulletHeight": 30,
+			"frontColor": "3D9FD5",
+			"backColor": "0A80C1",
+			"lifetime": 100
+		},
+		"surge-alloy": {
+			"speed": 6,
+			"lightining" : 40,
+			"lightningLength" : 20,
+			"damage": 200,
+			"bulletWidth": 5,
+			"bulletHeight": 30,
+			"frontColor": "3D9FD5",
+			"backColor": "0A80C1",
+			"lifetime": 100
+		}
+	},
+	"requirements": [
+		{ "item": "pure-gold", "amount": 800 },
+		{ "item": "copper", "amount": 10000 },
+		{ "item": "micro-chip", "amount": 1000 },
+		{ "item": "quantum-particles", "amount": 500 },
+		{ "item": "surge-alloy", "amount": 800 },
+		{ "item": "lead", "amount": 10000 },
+		{ "item": "silicon", "amount": 2000 }
+	],
+	"category": "turret",
+	"research": "meltdown"
+}
