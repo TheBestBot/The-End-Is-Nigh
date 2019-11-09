@@ -4,27 +4,27 @@
 	"type": "UnitFactory",
 	"unitType": "chaos-array",
 	"size": 6,
-	"produceTime": 12000,
-	"maxSpawn": 1,
+	"produceTime": 2000,
+	"maxSpawn": 4,
 	"consumes": {
-		"power": 120.0,
+		"power": 200.0,
 		"items": {
 			"items": [
-				{"item": "silicon", "amount": 2000},
-				{"item": "pure-gold", "amount": 300},
-				{"item": "titanium", "amount": 1000},
-				{"item": "thorium", "amount": 300},
-				{"item": "micro-chip", "amount": 300}
+				{"item": "silicon", "amount": 750},
+				{"item": "pure-gold", "amount": 75},
+				{"item": "titanium", "amount": 500},
+				{"item": "thorium", "amount": 200},
+				{"item": "micro-chip", "amount": 50}
 			]
 		}
 	},
 	"category": "units",
 	"research": "revenant-factory",
 	"requirements": [
-			{"item": "silicon", "amount": 1000},
-			{"item": "pure-gold", "amount": 150},
-			{"item": "titanium", "amount": 1000},
+			{"item": "silicon", "amount": 3000},
+			{"item": "pure-gold", "amount": 200},
+			{"item": "titanium", "amount": 2000},
 			{"item": "thorium", "amount": 300},
-			{"item": "micro-chip", "amount": 300}
+			{"item": "micro-chip", "amount": 500}
 	]
 }

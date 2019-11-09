@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Quantum Weaver",
+	"description": "Produces fabric that bends the laws of reality.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "quantum-phase", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 10.0,
+		"items": {
+			"items": [
+				{ "item": "phase-fabric", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "quantum-ore-slag",
+			"amount": 0.5
+		}
+	},
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 250 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "silicon", "amount": 300 },
+		{ "item": "pure-gold", "amount": 250 }
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

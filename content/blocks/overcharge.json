@@ -40,6 +40,18 @@
 				"lightining" : 10,
 				"lightningLength" : 25
 				}
+			},
+			"blast-compound": {
+			"ammoMultiplier": 1,
+			"speed": 1,
+			"damage": 3000,
+			"bulletWidth": 40,
+			"bulletHeight": 30,
+			"frontColor": "FF3333",
+			"backColor": "B32B2B",
+			"hitEffect" :"dynamicExplosion",
+			"splashDamage": 1000,
+			"lifetime": 600
 			}
 	},
 	"requirements": [

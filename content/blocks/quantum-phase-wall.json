@@ -1,9 +1,11 @@
 {
 	"name": "Quantum Phase Wall",
 	"description": "A wall made of quantum materials perfect bullet reflection, but highly ustable, resuting in a low health pool and a small max size.",
-	"type": "Wall",
-	"health": 100,
+	"type": "DeflectorWall",
+	"health": 1000,
 	"size": 1,
+	"hitTime": -1,
+	"maxDamageDeflect": 10000,
 	"requirements": [
 		{ "item": "quantum-phase", "amount": 40 }
 	],
