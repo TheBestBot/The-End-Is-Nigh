@@ -12,11 +12,11 @@
 	"smokeEffect": "shootBigSmoke",
 	"shootSound": "bigshot",
 	"inaccuracy": 5,
-	"rotatespeed": 1,
+	"rotatespeed": 0.5,
 	"ammo": {
 		"thorium": {
 			"speed": 6,
-			"damage": 240,
+			"damage": 340,
 			"bulletWidth": 5,
 			"bulletHeight": 30,
 			"frontColor": "3D9FD5",
@@ -25,7 +25,7 @@
 		},
 		"micro-chip": {
 			"speed": 6,
-			"damage": 300,
+			"damage": 500,
 			"incendAmount": 20,
 			"incendSpread": 20,
 			"incendChance": 10,
@@ -41,7 +41,7 @@
 			"speed": 6,
 			"lightining" : 40,
 			"lightningLength" : 20,
-			"damage": 200,
+			"damage": 400,
 			"bulletWidth": 5,
 			"bulletHeight": 30,
 			"frontColor": "3D9FD5",
@@ -51,11 +51,11 @@
 	},
 	"requirements": [
 		{ "item": "pure-gold", "amount": 800 },
-		{ "item": "copper", "amount": 10000 },
+		{ "item": "copper", "amount": 35000 },
 		{ "item": "micro-chip", "amount": 1000 },
 		{ "item": "quantum-particles", "amount": 500 },
 		{ "item": "surge-alloy", "amount": 800 },
-		{ "item": "lead", "amount": 10000 },
+		{ "item": "lead", "amount": 35000 },
 		{ "item": "silicon", "amount": 2000 }
 	],
 	"category": "turret",

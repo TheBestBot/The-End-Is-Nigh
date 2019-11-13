@@ -3,7 +3,8 @@
 	"description": "This drill goes through quantum barriers to achive incredible rates.",
 	"type": "Drill",
 	"size": 3,
-	"tier": 5,
+	"tier": 18,
+	"itemCapacity": 400,
 	"drillTime": 5,
 	"drawRim": true,
 	"consumes": {

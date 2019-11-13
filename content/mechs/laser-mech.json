@@ -1,7 +1,7 @@
 {
 	"name": "Quantum Mech",
 	"description": "An unnatural Mech. Ment for sige, as it comes with a powerful energy core.",
-	"speed": 0.5,
+	"speed": 0.3,
 	"boostSpeed": 1.0,
 	"buildPower": 0.5,
 	"engineColor": "666495",
@@ -14,6 +14,6 @@
 		"length": 5,
 		"reload": 5,
 		"alternate": true,
-		"bullet": "arilleryPlastic"
+		"bullet": "meltdownLaser"
 	}
 }

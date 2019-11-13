@@ -1,0 +1,17 @@
+{
+	"name": "Repair Laser",
+	"description": "A long range laser for repairing blocks.",
+	"type": "RepairPoint",
+	"health": 1000,
+	"size": 2,
+	"repairRadius": 600,
+	"repairSpeed": 5,
+	"powerUse": 20.0,
+	"requirements": [
+		{ "item": "quantum-phase", "amount": 40 },
+		{ "item": "micro-chip", "amount": 40 },
+		{ "item": "surge-alloy", "amount": 40 }
+	],
+	"category": "effect",
+	"research": "phase-wall"
+}

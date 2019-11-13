@@ -40,15 +40,28 @@
 				"lightining" : 10,
 				"lightningLength" : 25
 				}
+			},
+			"blast-compound": {
+			"ammoMultiplier": 1,
+			"speed": 1,
+			"damage": 3000,
+			"bulletWidth": 40,
+			"bulletHeight": 30,
+			"frontColor": "FF3333",
+			"backColor": "B32B2B",
+			"hitEffect" :"dynamicExplosion",
+			"splashDamage": 1000,
+			"splashDamageRadius": 1000,
+			"lifetime": 600
 			}
 	},
 	"requirements": [
 		{ "item": "pure-gold", "amount": 800 },
-		{ "item": "copper", "amount": 10000 },
+		{ "item": "copper", "amount": 35000 },
 		{ "item": "micro-chip", "amount": 1000 },
 		{ "item": "quantum-particles", "amount": 500 },
 		{ "item": "surge-alloy", "amount": 800 },
-		{ "item": "lead", "amount": 10000 },
+		{ "item": "lead", "amount":35000 },
 		{ "item": "silicon", "amount": 2000 }
 	],
 	"category": "turret",
