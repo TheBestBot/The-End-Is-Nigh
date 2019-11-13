@@ -3,7 +3,7 @@
 	"description": "Mends blocks at the quantum level.",
 	"type": "MendProjector",
 	"health": 2000,
-	"size": 2,
+	"size": 3,
 	"reload": 200,
 	"healPercent": 35,
 	"range": 200,
