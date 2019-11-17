@@ -8,9 +8,9 @@
 	"repairSpeed": 5,
 	"powerUse": 20.0,
 	"requirements": [
-		{ "item": "quantum-phase", "amount": 40 },
-		{ "item": "micro-chip", "amount": 40 },
-		{ "item": "surge-alloy", "amount": 40 }
+		{ "item": "quantum-phase", "amount": 400 },
+		{ "item": "micro-chip", "amount": 400 },
+		{ "item": "surge-alloy", "amount": 2000 }
 	],
 	"category": "effect",
 	"research": "phase-wall"

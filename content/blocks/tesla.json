@@ -1,0 +1,36 @@
+{
+	"type": "PowerTurret",
+	"name": "Tesla",
+	"description": "An expressly anti air electric weapon.",
+	"health": 1000,
+	"size": 1,
+	"reload": 10,
+	"range": 15,
+	"recoil": 0,
+	"ammoUseEffect": "shellEjectBig",
+	"shootEffect": "spawnShockwave",
+	"smokeEffect": "shootBigSmoke",
+	"shootSound": "wave",
+	"rotatespeed": 0,
+	"shootType": {
+	"speed": 1,
+	"damage": 35,
+	"bulletWidth": 40,
+	"bulletHeight": 30,
+	"frontColor": "3D9FD5",
+	"backColor": "0A80C1",
+	"fragBullets": 5,
+	"lightining" : 10,
+	"lightningLength" : 15,
+	"lifetime": 0
+	},
+	"requirements": [
+		{ "item": "pure-gold", "amount": 100 },
+		{ "item": "micro-chip", "amount": 100 },
+		{ "item": "quantum-particles", "amount": 100 },
+		{ "item": "surge-alloy", "amount": 100 },
+		{ "item": "silicon", "amount": 250 }
+	],
+	"category": "turret",
+	"research": "meltdown"
+}

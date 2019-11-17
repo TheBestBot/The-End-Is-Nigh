@@ -1,6 +1,6 @@
 {
 	"name": "Lich Facory",
-	"description": "Raise a swarm of toys.",
+	"description": "Raise a swarm of 'toys'.",
 	"type": "UnitFactory",
 	"unitType": "lich",
 	"size": 6,
