@@ -14,7 +14,7 @@
 	"shootSound": "spark",
 	"rotatespeed": 1,
 	"powerUse": 1.5,
-	"shootType": "BasicBulletType",
+	"shootType": "arc",
 	"speed": 1,
 	"damage": 35,
 	"bulletWidth": 4,
