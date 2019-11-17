@@ -14,6 +14,6 @@
 		"length": 5,
 		"reload": 5,
 		"alternate": true,
-		"bullet": "meltdownLaser"
+		"bullet": "arc"
 	}
 }

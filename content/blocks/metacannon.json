@@ -12,7 +12,7 @@
 	"smokeEffect": "shootBigSmoke",
 	"shootSound": "bigshot",
 	"inaccuracy": 5,
-	"rotatespeed": 0.5,
+	"rotatespeed": 1.2,
 	"ammo": {
 		"thorium": {
 			"speed": 6,

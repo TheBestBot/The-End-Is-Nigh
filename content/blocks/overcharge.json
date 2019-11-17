@@ -12,7 +12,7 @@
 	"smokeEffect": "shootBigSmoke",
 	"shootSound": "wave",
 	"inaccuracy": 0,
-	"rotatespeed": 0.05,
+	"rotatespeed": 0.1,
 	"ammoPerShot": 30,
 	"ammo": {
 		"micro-chip": {
@@ -49,9 +49,9 @@
 			"bulletHeight": 30,
 			"frontColor": "FF3333",
 			"backColor": "B32B2B",
-			"hitEffect" :"dynamicExplosion",
+			"hitEffect" :"blockExplosion",
 			"splashDamage": 1000,
-			"splashDamageRadius": 1000,
+			"splashDamageRadius": 50,
 			"lifetime": 600
 			}
 	},

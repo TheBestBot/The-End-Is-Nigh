@@ -12,8 +12,8 @@
 	"weapon": {
 		"name": "chrome-blaster",
 		"length": 1,
-		"reload": 200,
-		"alternate": false,
-		"bullet": "meltdownLaser"
+		"reload": 100,
+		"alternate": true,
+		"bullet": "lancerLaser "
 	}
 }
