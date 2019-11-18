@@ -16,16 +16,15 @@
 	"powerUse": 1.5,
 	"firingMoveFract": 1.0,
 	"shootType": {
-		"type": "BasicBulletType",
-		"speed": 2,
-		"damage": 35,
-		"bulletWidth": 10,
-		"bulletHeight": 10,
+
+		"speed": 6,
+		"damage": 340,
+		"bulletWidth": 5,
+		"bulletHeight": 30,
 		"frontColor": "3D9FD5",
 		"backColor": "0A80C1",
-		"lightining" : 10,
-		"lightningLength" : 15,
 		"lifetime": 100
+
 	},
 	"requirements": [
 		{ "item": "pure-gold", "amount": 100 },
