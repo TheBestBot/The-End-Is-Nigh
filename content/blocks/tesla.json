@@ -1,5 +1,5 @@
 {
-	"type": "PowerTurret",
+	"type": "LaserTurret",
 	"name": "Tesla",
 	"description": "An expressly anti air electric weapon.",
 	"health": 1000,
@@ -14,10 +14,12 @@
 	"shootSound": "spark",
 	"rotatespeed": 10,
 	"powerUse": 1.5,
+	"firingMoveFract": 1,
 	"shootType": {
 		"type": "BasicBulletType",
 		"speed": 0,
 		"damage": 35,
+		
 		"bulletWidth": 4,
 		"bulletHeight": 3,
 		"frontColor": "3D9FD5",
