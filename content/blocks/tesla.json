@@ -1,31 +1,23 @@
 {
-	"type": "LaserTurret",
+    "type": "ChargeTurret",
 	"name": "Tesla",
 	"description": "An expressly anti air electric weapon.",
-	"health": 1000,
-	"size": 1,
-	"reload": 10,
-	"range": 100,
-	"recoil": 1,
-	"targetAir": false,
-	"targetGround": true,
-	"ammoUseEffect": "lightningShoot",
-	"shootEffect": "lightningShoot",
-	"shootSound": "spark",
-	"rotatespeed": 10,
-	"powerUse": 1.5,
-	"firingMoveFract": 1.0,
-	"shootType": {
-
-		"speed": 6,
-		"damage": 340,
-		"bulletWidth": 5,
-		"bulletHeight": 30,
-		"frontColor": "3D9FD5",
-		"backColor": "0A80C1",
-		"lifetime": 100
-
-	},
+    "targetAir": false,
+    "targetGround": true,
+    "hasPower": true,
+    "powerUse": 8.0,
+    "shootType": "arc",
+    "health": 1000,
+    "size": 1,
+    "inaccuracy": 180,
+    "reload": 1,
+	"shots": 1,
+	"spread": 35,
+    "recoil": 0,
+    "shootCone": 360,
+    "rotateSpeed": 30,
+    "range": 115,
+    "shootEffect": "lightningShoot",
 	"requirements": [
 		{ "item": "pure-gold", "amount": 100 },
 		{ "item": "micro-chip", "amount": 100 },
@@ -33,6 +25,7 @@
 		{ "item": "surge-alloy", "amount": 100 },
 		{ "item": "silicon", "amount": 250 }
 	],
-	"category": "turret",
-	"research": "meltdown"
+    "category": "turret",
+    "shootSound": "spark",
+    "research": "meltdown"
 }
