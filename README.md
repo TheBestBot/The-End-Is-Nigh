@@ -3,10 +3,10 @@ A mod that aims to expand on the campaign and end game content, by expanding on 
 
 # It adds: 
 
-Massive, long range turrets\n
-New units\n
-Campaign map\n
-New tech\n\n
+-Massive, long range turrets\n
+-New units\n
+-Campaign map\n
+-New tech\n\n
 
 This mod is HARD.
 
