@@ -1,10 +1,22 @@
 # End is Nigh
-A mod that aims to expand on the [gold]campaign[]and[accent]end game[] content, by expanding on vanilla concepts while also adding unique mechanics.\n\nIt adds:\n[accent]Massive[], long range turrets\nNew units\nVampaign [accent]maps[]\n[accent]New tech[]\n\n[red]This mod is [red]HARD[].
+A mod that aims to expand on the campaign and end game content, by expanding on vanilla concepts while also adding unique mechanics
 
-Change Log:
+# It adds: 
 
+Massive, long range turrets
+New units
+Campaign map
+New tech
+
+This mod is HARD.
+
+# Change Log:
+
+# v0.9:
 2 new maps added.
-
 Tesla: Crazy op small tower, ment for small units.
+
+# v0.8:
+filling in sprites
 
 1.0 update hype? 
