@@ -3,8 +3,8 @@ A endgame mod for mindustry. Adds new weapons, units and production buildings.
 
 Change Log:
 
-1 new map added.
+2 new maps added.
 
 Tesla: Crazy op small tower, ment for small units.
 
-1.0 update hype? proabbly not
+1.0 update hype? 
