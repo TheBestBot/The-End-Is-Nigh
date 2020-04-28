@@ -1,7 +1,6 @@
 {
   "name": "The End is Nigh",
   "author": "Best Bot",
-  "description": ["A mod that aims to expand on end game content, by expanding on vanilla concepts while also adding unique mechanics.",
-                 "It adds [accent]massive[], long range turrets, new units, campaign [accent]maps[]and new [accent]new tech[]."]
+  "description": "A mod that aims to expand on end game content, by expanding on vanilla concepts while also adding unique mechanics.\n\nIt adds:\n[accent]Massive[], long range turrets\nnew units\ncampaign [accent]maps[]\nnew [accent]new tech[]."
   "version": 0.9
 }
