@@ -5,16 +5,11 @@ A mod that aims to expand on the campaign and end game content, by expanding on 
 
 -Massive, long range turrets
 
-
 -New units
-
 
 -Campaign map
 
-
 -New tech
-
-
 
 
 This mod is HARD.
