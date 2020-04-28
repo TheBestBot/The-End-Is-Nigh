@@ -1,5 +1,5 @@
 # End is Nigh
-A endgame mod for mindustry. Adds new weapons, units and production buildings.
+A mod that aims to expand on the [gold]campaign[]and[accent]end game[] content, by expanding on vanilla concepts while also adding unique mechanics.\n\nIt adds:\n[accent]Massive[], long range turrets\nNew units\nVampaign [accent]maps[]\n[accent]New tech[]\n\n[red]This mod is [red]HARD[].
 
 Change Log:
 
