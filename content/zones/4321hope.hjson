@@ -1,0 +1,34 @@
+name: 4 Biomes, 3 Spawns, 2 Cores, 1 Hope
+description: A large scale map of destruction.3 spawns 3 ways to your cores. The hostiles ramp quicky and bring the big guns every 50. At wave 250 there are no enemies untill wave 300. Last to wave 400 to win.
+loadout: basicFoundation
+startingItems: [
+  copper/2500
+  lead/500
+  titanium/100
+  silicon/100
+  phase-fabric/30
+  graphite/500
+]
+conditionWave: 400
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 40
+  }
+  {
+    type: Unlock
+    block: kiln
+  }
+  {
+    type: Unlock
+    block: solar-panel
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+]
