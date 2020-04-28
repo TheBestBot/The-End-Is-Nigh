@@ -19,7 +19,7 @@ requirements: [
   }
   {
     type: ZoneWave
-    zone: desloateRift
+    zone: desolateRift
     wave: 150
   }
   {
