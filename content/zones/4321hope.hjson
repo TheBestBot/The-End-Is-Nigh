@@ -14,12 +14,12 @@ launchPeriod: 10
 requirements: [
   {
     type: ZoneWave
-    zone: nuclearComplex
+    zone: desloateRift
     wave: 150
   }
   {
     type: ZoneWave
-    zone: desloateRift
+    zone: nuclearComplex
     wave: 150
   }
   {
