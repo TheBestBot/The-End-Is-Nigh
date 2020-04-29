@@ -21,7 +21,7 @@
 				{"item": "thorium", "amount": 1},
 				{"item": "graphite", "amount": 5},
 				{"item": "silicon", "amount": 5},
-				{"item": "spore-pod", "amount": 5},
+				{"item": "spore-pod", "amount": 5}
 			]
 		}
 	},
@@ -33,7 +33,7 @@
 		{"item": "titanium", "amount": 200},
 		{"item": "thorium", "amount": 50},
 		{"item": "graphite", "amount": 100},
-		{"item": "silicon", "amount": 100},
+		{"item": "silicon", "amount": 100}
 	],
 	"category": "crafting",
 	"research": "phase-weaver",
