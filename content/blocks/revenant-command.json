@@ -1,0 +1,27 @@
+{
+	"name": "Revenant Command",
+	"description": "Raise a swarm of revrents from a single block, at increased costs.",
+	"type": "UnitFactory",
+	"unitType": "revenant",
+	"size": 6,
+	"produceTime": 20,
+	"maxSpawn": 250,
+	"consumes": {
+		"power": 2000.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 35},
+				{"item": "titanium", "amount": 45},
+				{"item": "thorium", "amount": 1}
+			]
+		}
+	},
+	"category": "units",
+	"research": "revenant-factory",
+	"requirements": [
+			{"item": "silicon", "amount": 1500},
+			{"item": "pure-gold", "amount": 100},
+			{"item": "titanium", "amount": 1000},
+			{"item": "thorium", "amount": 300}
+	]
+}
