@@ -24,8 +24,6 @@ chargeMaxDelay: 300
 shootShake: 9
 
 requirements: [
-  diamond/4000
-  cryogem/1250
   thorium/2250
   surge-alloy/2500
   plastanium/3000
