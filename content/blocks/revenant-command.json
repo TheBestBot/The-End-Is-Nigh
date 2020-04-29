@@ -7,7 +7,7 @@
 	"produceTime": 20,
 	"maxSpawn": 250,
 	"consumes": {
-		"power": 400.0,
+		"power": 500.0,
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 35},
