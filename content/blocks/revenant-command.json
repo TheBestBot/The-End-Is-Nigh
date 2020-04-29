@@ -1,13 +1,13 @@
 {
 	"name": "Revenant Command",
-	"description": "Raise a swarm of revrents from a single block, at increased costs.",
+	"description": "Raise a swarm of revrents from a single block, at increased costs.\n[red]Can cause signifigant lag.[]",
 	"type": "UnitFactory",
 	"unitType": "revenant",
 	"size": 6,
 	"produceTime": 20,
 	"maxSpawn": 250,
 	"consumes": {
-		"power": 2000.0,
+		"power": 400.0,
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 35},
