@@ -1,0 +1,36 @@
+//type: ChargeTurret
+name: Yggdrasil
+description: Ultimate plasma cannon of ancient origin. Requires astronomical amounts of power to charge and launch a giant ball of destructive plasma that annihilates anything it hits!
+health: 80000
+size: 4
+reload: 600
+range: 800
+coolantMultiplier: 11
+buildCostMultiplier: 0.33333333
+inaccuracy: 0
+rotatespeed: 3
+cooldown: 0.003333
+shootSound: yggdrasilfire
+shootCone: 2
+layer: power
+outlineIcon: false
+expanded: true
+powerUse: 150
+//chargeEffect: yggdrasilCharge
+chargeBeginEffect: shockwave
+chargeEffects: 60
+chargeTime: 300
+chargeMaxDelay: 300
+shootShake: 9
+
+requirements: [
+  diamond/4000
+  cryogem/1250
+  thorium/2250
+  surge-alloy/2500
+  plastanium/3000
+  phase-fabric/1000
+  graphite/1500
+]
+category: turret
+research: spectre
