@@ -13,6 +13,6 @@
 		{ "item": "pure-gold", "amount": 200 },
 		{ "item": "quantum-particles", "amount": 40 },
 		{ "item": "silicon", "amount": 200 },
-		{ "item": "graphite", "amount": 200 },
+		{ "item": "graphite", "amount": 200 }
 	]
 }
