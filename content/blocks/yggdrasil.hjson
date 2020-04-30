@@ -2,7 +2,7 @@
 name: dont use
 description: Ultimate plasma cannon of ancient origin. Requires astronomical amounts of power to charge and launch a giant ball of destructive plasma that annihilates anything it hits!
 health: 80000
-size: 4
+size: 5
 reload: 600
 range: 800
 coolantMultiplier: 11
@@ -13,7 +13,6 @@ cooldown: 0.003333
 shootSound: yggdrasilfire
 shootCone: 2
 layer: power
-outlineIcon: false
 expanded: true
 powerUse: 150
 //chargeEffect: yggdrasilCharge
