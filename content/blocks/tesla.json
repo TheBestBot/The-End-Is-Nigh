@@ -8,7 +8,7 @@
     "powerUse": 8.0,
     "shootType": "arc",
     "health": 1000,
-    "size": 5,
+    "size": 1,
     "inaccuracy": 180,
     "reload": 1,
 	"shots": 1,
