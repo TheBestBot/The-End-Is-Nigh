@@ -15,6 +15,15 @@ This mod is HARD.
 
 # Change Log:
 
+# v0.11.1
+added more bugs, yep more, not less
+
+# v0.11
+mega test phase and very buggy content not ment for mortals
+
+# v0.10
+no-one talks about v0.10
+
 # v0.9:
 2 new maps added.
 
