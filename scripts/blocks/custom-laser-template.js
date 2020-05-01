@@ -16,9 +16,9 @@ const spread = [0];
 //Shift beam left or right. Negative is left, 0 is middle.
 const spacing = [0];
 //Shift beam foward or backward. Negative is backward, 0 is middle. Note that it counts from the start of the widest section.
-const position = [0];
+const position = [-20];
 //Length of beam. Uses same 8 per tile rule.
-var length = [220];
+var length = [400];
 
 //Stuff you probably shouldn't edit unless you know what you're doing.
 //Width of each section of the beam from thickest to thinnest
@@ -45,7 +45,8 @@ laserLib.shootType = extend(BasicBulletType, {
                 var angleB = spread[v];
                 var baseLen = length[v] * b.fout();
                 Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x + vec.x, b.y + vec.y, b.rot() + angleB, length[v] + length[v]/8.75, true);
-                //Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x + Tmp.v1.x + vec.x, b.y + Tmp.v1.y + vec.y, b.rot() + angleB, /*baseLen * b.fout() * lenscales[4]*/length[v] + length[v]/8.75, true);
+                //collideLine(Bulletc hitter, Team team, Effect effect, float x, float y, float angle, float length){
+                //collideLine(hitter, team, effect, x, y, angle, length, false);
             }
         };
     },
@@ -77,19 +78,19 @@ laserLib.shootType = extend(BasicBulletType, {
 
 laserLib.shootType.hitEffect = Fx.hitMeltdown;
 laserLib.shootType.despawnEffect = Fx.none;
-laserLib.shootType.damage = 5000; //Multiply by 12 for dps
-laserLib.shootType.hitSize = 4;
+laserLib.shootType.damage = 50000; //Multiply by 12 for dps
+laserLib.shootType.hitSize = 100;
 laserLib.shootType.lifetime = 16;
 laserLib.shootType.drawSize = 420;
 laserLib.shootType.pierce = true;
 laserLib.shootType.speed = 0.001;
 
 //make the beam inflict a status effect. Remove if you don't want a status effect applied.
-exampleEffect = new StatusEffect("name");
+//exampleEffect = new StatusEffect("none");
 //damage per tick like usual
-exampleEffect.damage = 69;
+/*exampleEffect.damage = 69;
 exampleEffect.effect = Fx.burning;
 exampleEffect.damageMultiplier = 1;
 exampleEffect.speedMultiplier = 1;
 exampleEffect.armorMultiplier = 1;
-laserLib.shootType.status = exampleEffect
+laserLib.shootType.status = exampleEffect*/
