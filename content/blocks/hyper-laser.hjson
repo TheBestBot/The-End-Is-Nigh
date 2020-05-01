@@ -5,22 +5,33 @@ The pinicle of engineering of the know world. A titanic, high-powered laser beam
 At its core temptures can reach 900,000 kelvin.
 '''
 size: 5
-health: 7000
-range: 500
-reload: 120
+health: 12000
+range: 4750
+reload: 300
 //shootSound: thesunisadeadlylaserlol
 //activeSound: flare
 activeSoundVolume: 2
 powerUse: 200
 shootCone: 10
 shootShake: 1.5
+shootDuration: 7000
 targetAir: true
 targetGround: true
 heatColor: ffff00
 recoil: 4
-rotatespeed: 5
-firingMoveFract: 0.5
+rotatespeed: 3
+firingMoveFract: 0.4
 requirements: [
+    pure-gold/2000
+    copper/60000
+    lead/60000
+    micro-chip/3500
+    quantum-particles/2000
+    surge-alloy/3000
+    plastanium/5000
+    silicon/8000
+    phase-fabric/1000
+    graphite/2000
 ]
 category: turret
 research: meltdown

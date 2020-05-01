@@ -53,9 +53,9 @@ laserLib.shootType = extend(BasicBulletType, {
     hit(b,hitx,hity){
         Effects.effect(this.hitEffect,Color.valueOf("f7d95e"),hitx!=null?hitx:b.x,hity!=null?hity:b.y);
         //Uncomment the following 3 lines to have incend. Chance is 0 to 1. Copy/past the Fire.create line multiple times to create more fire at once.
-        /*if(Mathf.chance(0.8)){
+        if(Mathf.chance(0.8)){
             Fire.create(Vars.world.tileWorld(hitx + Mathf.range(5), hity + Mathf.range(5)));
-        }*/
+        }
     },
     draw: function(b){
         
@@ -79,18 +79,18 @@ laserLib.shootType = extend(BasicBulletType, {
 laserLib.shootType.hitEffect = Fx.hitMeltdown;
 laserLib.shootType.despawnEffect = Fx.none;
 laserLib.shootType.damage = 50000; //Multiply by 12 for dps
-laserLib.shootType.hitSize = 100;
+laserLib.shootType.hitSize = 10;
 laserLib.shootType.lifetime = 16;
 laserLib.shootType.drawSize = 420;
 laserLib.shootType.pierce = true;
 laserLib.shootType.speed = 0.001;
 
 //make the beam inflict a status effect. Remove if you don't want a status effect applied.
-//exampleEffect = new StatusEffect("none");
+exampleEffect = new StatusEffect("none");
 //damage per tick like usual
-/*exampleEffect.damage = 69;
+exampleEffect.damage = 69;
 exampleEffect.effect = Fx.burning;
 exampleEffect.damageMultiplier = 1;
 exampleEffect.speedMultiplier = 1;
 exampleEffect.armorMultiplier = 1;
-laserLib.shootType.status = exampleEffect*/
+laserLib.shootType.status = exampleEffect
