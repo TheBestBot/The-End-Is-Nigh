@@ -76,8 +76,8 @@ laserLib.shootType = extend(BasicBulletType, {
 
 laserLib.shootType.hitEffect = Fx.hitMeltdown;
 laserLib.shootType.despawnEffect = Fx.none;
-laserLib.shootType.damage = 5000; //Multiply by 12 for dps
-laserLib.shootType.hitSize = 4;
+laserLib.shootType.damage = 50000; //Multiply by 12 for dps
+laserLib.shootType.hitSize = 10;
 laserLib.shootType.lifetime = 16;
 laserLib.shootType.drawSize = 420;
 laserLib.shootType.pierce = true;
