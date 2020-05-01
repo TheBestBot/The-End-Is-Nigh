@@ -4,7 +4,6 @@
 	"type": "DeflectorWall",
 	"health": 5000,
 	"size": 1,
-	"hitTime": -1,
 	"maxDamageDeflect": 10000,
 	"requirements": [
 		{ "item": "quantum-phase", "amount": 400 }

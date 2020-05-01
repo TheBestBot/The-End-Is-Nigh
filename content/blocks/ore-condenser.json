@@ -12,13 +12,11 @@
 	],
 
 	"size": 4,
-	"spinnerLength": 2,
 	"spinnerSpeed": 10,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
 	"craftTime": 60,
-	"updateEffect": "smeltsmoke",
 	"consumes": {
         	"power": 2.0,
         	"liquid": {
