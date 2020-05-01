@@ -8,17 +8,17 @@ var fluidCostMultiplier = 1;
 //4 colors from outside in. Normal meltdown laser has trasnparrency 55 -> aa -> ff (no transparrency) -> ff(no transparrency)
 var colors = [Color.valueOf("ec745855"), Color.valueOf("ec7458aa"), Color.valueOf("ff9c5a"), Color.white];
 //Number of beams
-var lasers = 2;
+var lasers = 1;
 
 //The number of values in the next 4 arrays is the number of beams you have. First values in each go to the first beam, second values go to the second, etc.
 //Beam angles in degrees
-const spread = [0, 0];
+const spread = [0];
 //Shift beam left or right. Negative is left, 0 is middle.
-const spacing = [0, 0];
+const spacing = [0];
 //Shift beam foward or backward. Negative is backward, 0 is middle. Note that it counts from the start of the widest section.
-const position = [-24, 32];
+const position = [-20];
 //Length of beam. Uses same 8 per tile rule.
-var length = [56, 400];
+var length = [400];
 
 //Stuff you probably shouldn't edit unless you know what you're doing.
 //Width of each section of the beam from thickest to thinnest
