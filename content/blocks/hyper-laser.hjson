@@ -14,7 +14,7 @@ activeSoundVolume: 2
 powerUse: 200
 shootCone: 10
 shootShake: 1.5
-shootDuration: 800
+shootDuration: 300
 targetAir: true
 targetGround: true
 heatColor: ffff00
