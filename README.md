@@ -15,6 +15,15 @@ This mod is HARD.
 
 # Change Log:
 
+# v1.0.0
+guys, look, i fixed the bugggggsss
+
+also new turret and full quantum phase implmentation
+
+also new maps
+
+also also
+
 # v0.11.3
 bugs:added, not removed
 
@@ -33,7 +42,7 @@ mega test phase and very buggy content not ment for mortals
 no-one talks about v0.10
 
 # v0.9:
-2 new maps added.
+1 new map added.
 
 Tesla: Crazy op small tower, ment for small units.
 
