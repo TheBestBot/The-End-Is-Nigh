@@ -1,4 +1,4 @@
-//type: ChargeTurret
+/*type: ChargeTurret
 name: dont use
 description: Ultimate plasma cannon of ancient origin. Requires astronomical amounts of power to charge and launch a giant ball of destructive plasma that annihilates anything it hits!
 health: 80000
