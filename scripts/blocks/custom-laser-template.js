@@ -2,7 +2,7 @@
 const laserLib = new LaserTurret("hyper-laser");
 
 //Normally takes 30/sec to cool. Change this to multiply that amount.
-var fluidCostMultiplier = 1;
+var fluidCostMultiplier = 0.2;
 
 //Editable stuff for custom laser.
 //4 colors from outside in. Normal meltdown laser has trasnparrency 55 -> aa -> ff (no transparrency) -> ff(no transparrency)
@@ -16,7 +16,7 @@ const spread = [0];
 //Shift beam left or right. Negative is left, 0 is middle.
 const spacing = [0];
 //Shift beam foward or backward. Negative is backward, 0 is middle. Note that it counts from the start of the widest section.
-const position = [-16];
+const position = [-24];
 //Length of beam. Uses same 8 per tile rule.
 var length = [500];
 
@@ -51,9 +51,9 @@ laserLib.shootType = extend(BasicBulletType, {
     hit(b,hitx,hity){
         Effects.effect(this.hitEffect,Color.valueOf("f7d95e"),hitx!=null?hitx:b.x,hity!=null?hity:b.y);
         //Uncomment the following 3 lines to have incend. Chance is 0 to 1. Copy/past the Fire.create line multiple times to create more fire at once.
-        /*if(Mathf.chance(0.8)){
+        if(Mathf.chance(0.8)){
             Fire.create(Vars.world.tileWorld(hitx + Mathf.range(5), hity + Mathf.range(5)));
-        }*/
+        }
     },
     draw: function(b){
         
@@ -84,7 +84,7 @@ laserLib.shootType.pierce = true;
 laserLib.shootType.speed = 0.001;
 
 //make the beam inflict a status effect. Remove if you don't want a status effect applied.
-exampleEffect = new StatusEffect("name");
+exampleEffect = new StatusEffect("burning");
 //damage per tick like usual
 exampleEffect.damage = 69;
 exampleEffect.effect = Fx.burning;
