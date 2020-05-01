@@ -18,7 +18,7 @@ const spacing = [0];
 //Shift beam foward or backward. Negative is backward, 0 is middle. Note that it counts from the start of the widest section.
 const position = [-20];
 //Length of beam. Uses same 8 per tile rule.
-var length = [400];
+var length = [500];
 
 //Stuff you probably shouldn't edit unless you know what you're doing.
 //Width of each section of the beam from thickest to thinnest
@@ -78,7 +78,7 @@ laserLib.shootType = extend(BasicBulletType, {
 
 laserLib.shootType.hitEffect = Fx.hitMeltdown;
 laserLib.shootType.despawnEffect = Fx.none;
-laserLib.shootType.damage = 50000; //Multiply by 12 for dps
+laserLib.shootType.damage = 500; //Multiply by 12 for dps
 laserLib.shootType.hitSize = 10;
 laserLib.shootType.lifetime = 16;
 laserLib.shootType.drawSize = 420;
