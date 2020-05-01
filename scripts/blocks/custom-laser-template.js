@@ -16,13 +16,13 @@ const spread = [0, 0];
 //Shift beam left or right. Negative is left, 0 is middle.
 const spacing = [0, 0];
 //Shift beam foward or backward. Negative is backward, 0 is middle. Note that it counts from the start of the widest section.
-const position = [-32, 32];
+const position = [-24, 32];
 //Length of beam. Uses same 8 per tile rule.
-var length = [50, 400];
+var length = [56, 400];
 
 //Stuff you probably shouldn't edit unless you know what you're doing.
 //Width of each section of the beam from thickest to thinnest
-var tscales = [1, 0.7, 0.5, 0.2];
+var tscales = [4, 0.7, 0.5, 0.2];
 //Overall width of each color
 var strokes = [2, 1.5, 1, 0.3];
 //Determines how far back each section in the start should be pulled
@@ -84,11 +84,11 @@ laserLib.shootType.pierce = true;
 laserLib.shootType.speed = 0.001;
 
 //make the beam inflict a status effect. Remove if you don't want a status effect applied.
-exampleEffect = new StatusEffect("none");
+//exampleEffect = new StatusEffect("none");
 //damage per tick like usual
-exampleEffect.damage = 69;
+/*exampleEffect.damage = 69;
 exampleEffect.effect = Fx.burning;
 exampleEffect.damageMultiplier = 1;
 exampleEffect.speedMultiplier = 1;
 exampleEffect.armorMultiplier = 1;
-laserLib.shootType.status = exampleEffect
+laserLib.shootType.status = exampleEffect*/
