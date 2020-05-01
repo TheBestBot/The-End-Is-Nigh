@@ -15,6 +15,9 @@ This mod is HARD.
 
 # Change Log:
 
+# v0.11.3
+bugs:added, not removed
+
 # v0.11.2
 more bugs
 
