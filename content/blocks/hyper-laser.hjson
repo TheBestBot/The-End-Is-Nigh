@@ -1,0 +1,28 @@
+name: "Hyperlaser"
+description:
+'''
+The pinicle of engineering of the know world. A titanic, high-powered laser beam.
+At its core temptures can reach 900,000 kelvin.
+'''
+size: 5
+health: 7000
+range: 500
+reload: 300
+//shootSound: thesunisadeadlylaserlol
+//activeSound: flare
+activeSoundVolume: 2
+powerUse: 200
+rotatespeed: 0.5
+shootCone: 10
+shootShake: 1.5
+targetAir: true
+targetGround: true
+heatColor: ffff00
+recoil: 4
+shootDuration: 345
+rotatespeed: 5
+firingMoveFract: 0.5
+requirements: [
+]
+category: turret
+research: meltdown

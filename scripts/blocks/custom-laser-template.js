@@ -1,5 +1,5 @@
 //the name you put in the quotaion marks is the same for the .hjson, this file's name, and the sprites.
-const laserLib = new LaserTurret("custom-laser-template");
+const laserLib = new LaserTurret("hyper-laser");
 
 //Normally takes 30/sec to cool. Change this to multiply that amount.
 var fluidCostMultiplier = 1;
@@ -16,9 +16,9 @@ const spread = [0];
 //Shift beam left or right. Negative is left, 0 is middle.
 const spacing = [0];
 //Shift beam foward or backward. Negative is backward, 0 is middle. Note that it counts from the start of the widest section.
-const position = [0];
+const position = [-16];
 //Length of beam. Uses same 8 per tile rule.
-var length = [220];
+var length = [500];
 
 //Stuff you probably shouldn't edit unless you know what you're doing.
 //Width of each section of the beam from thickest to thinnest
