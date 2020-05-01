@@ -15,7 +15,6 @@
 	"spread": 35,
     "recoil": 0,
     "shootCone": 360,
-    "rotateSpeed": 30,
     "range": 115,
     "shootEffect": "lightningShoot",
 	"requirements": [
