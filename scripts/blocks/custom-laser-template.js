@@ -2,23 +2,23 @@
 const laserLib = new LaserTurret("hyper-laser");
 
 //Normally takes 30/sec to cool. Change this to multiply that amount.
-var fluidCostMultiplier = 0.2;
+var fluidCostMultiplier = 1;
 
 //Editable stuff for custom laser.
 //4 colors from outside in. Normal meltdown laser has trasnparrency 55 -> aa -> ff (no transparrency) -> ff(no transparrency)
 var colors = [Color.valueOf("ec745855"), Color.valueOf("ec7458aa"), Color.valueOf("ff9c5a"), Color.white];
 //Number of beams
-var lasers = 1;
+var lasers = 2;
 
 //The number of values in the next 4 arrays is the number of beams you have. First values in each go to the first beam, second values go to the second, etc.
 //Beam angles in degrees
-const spread = [0];
+const spread = [0, 0];
 //Shift beam left or right. Negative is left, 0 is middle.
-const spacing = [0];
+const spacing = [0, 0];
 //Shift beam foward or backward. Negative is backward, 0 is middle. Note that it counts from the start of the widest section.
-const position = [-24];
+const position = [-32, 32];
 //Length of beam. Uses same 8 per tile rule.
-var length = [500];
+var length = [50, 400];
 
 //Stuff you probably shouldn't edit unless you know what you're doing.
 //Width of each section of the beam from thickest to thinnest
@@ -51,9 +51,9 @@ laserLib.shootType = extend(BasicBulletType, {
     hit(b,hitx,hity){
         Effects.effect(this.hitEffect,Color.valueOf("f7d95e"),hitx!=null?hitx:b.x,hity!=null?hity:b.y);
         //Uncomment the following 3 lines to have incend. Chance is 0 to 1. Copy/past the Fire.create line multiple times to create more fire at once.
-        if(Mathf.chance(0.8)){
+        /*if(Mathf.chance(0.8)){
             Fire.create(Vars.world.tileWorld(hitx + Mathf.range(5), hity + Mathf.range(5)));
-        }
+        }*/
     },
     draw: function(b){
         
@@ -84,7 +84,7 @@ laserLib.shootType.pierce = true;
 laserLib.shootType.speed = 0.001;
 
 //make the beam inflict a status effect. Remove if you don't want a status effect applied.
-exampleEffect = new StatusEffect("burning");
+exampleEffect = new StatusEffect("none");
 //damage per tick like usual
 exampleEffect.damage = 69;
 exampleEffect.effect = Fx.burning;
