@@ -1,1 +1,1 @@
-import "blocks/custom-laser-template";
+require("blocks/custom-laser-template")
