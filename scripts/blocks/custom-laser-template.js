@@ -1,5 +1,5 @@
 //the name you put in the quotaion marks is the same for the .hjson, this file's name, and the sprites.
-const laserLib = new LaserTurret("custom-laser-template");
+const laserLib = new LaserTurret("hyper-laser");
 
 //Normally takes 30/sec to cool. Change this to multiply that amount.
 var fluidCostMultiplier = 1;
