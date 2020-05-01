@@ -44,7 +44,9 @@ laserLib.shootType = extend(BasicBulletType, {
                 Tmp.v1.trns(b.rot() + angleB + 180.0, (pullscales[4] - 1.0) * 55.0);
                 var angleB = spread[v];
                 var baseLen = length[v] * b.fout();
-                Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x + Tmp.v1.x + vec.x, b.y + Tmp.v1.y + vec.y, b.rot() + angleB, baseLen * b.fout() * lenscales[4], true);
+                Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x /*+ Tmp.v1.x*/ + vec.x, b.y /*+ Tmp.v1.y*/ + vec.y, b.rot() + angleB, baseLen * b.fout() * lenscales[4], true);
+                //collideLine(Bulletc hitter, Team team, Effect effect, float x, float y, float angle, float length){
+                //collideLine(hitter, team, effect, x, y, angle, length, false);
             }
         };
     },
