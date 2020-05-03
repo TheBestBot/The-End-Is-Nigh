@@ -1,4 +1,4 @@
-const obliterate = extendContent(ItemTurret, "hyper-laser", {
+const obliterate = extendContent(ItemTurret, "hyperlaser", {
     load(){
       this.super$load() 
       this.baseRegion = Core.atlas.find(this.name + "-base");
