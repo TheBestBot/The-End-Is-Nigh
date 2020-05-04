@@ -4,6 +4,7 @@ description:
 The pinicle of engineering of the know world. A titanic, high-powered laser beam.
 At its core temptures can reach 900,000 kelvin.
 '''
+size: 5
 health: 12000
 range: 475
 reload: 300
