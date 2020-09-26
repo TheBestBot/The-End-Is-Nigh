@@ -1,4 +1,6 @@
 # End is Nigh
+The mod is back with a 6.0 rework in the works!
+
 A mod that aims to expand on the campaign and end game content, by expanding on vanilla concepts while also adding unique mechanics
 
 This mod is HARD.
